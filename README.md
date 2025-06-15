@@ -34,6 +34,13 @@ A modern implementation of the classic Asteroids arcade game, built in Python wi
 ## Installation
 
 - Run `make venv` from the root folder
+- Run 'source venv/bin/activate'
+- Run 'python3 main.py'
+
+- Close the Window to end the game
+
+- Run 'make clean' to remove venv
+- Run 'deactivate' to stop the virtual environment
 
 ---
 
@@ -49,7 +56,7 @@ Space - Shoot
 
 ---
 
-- This game is freeware. You are free to play it and distribute it however you wish.
+- This game is freeware. You are free to play it and share it as much as you wish.
 
 ---
 
