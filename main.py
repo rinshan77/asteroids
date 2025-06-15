@@ -1,3 +1,4 @@
+import sys
 import pygame
 from constants import *
 from player import Player
@@ -31,6 +32,12 @@ def main():
                 return
         pygame.Surface.fill(screen, (0, 0, 0))
         updatable.update(dt)
+
+        for asteroid in asteroids:
+            if asteroid.collision(player):
+                print("Game over!")
+                sys.exit()
+
         for sprite in drawable:
             sprite.draw(screen)
         pygame.display.flip()
