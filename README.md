@@ -34,23 +34,23 @@ A modern implementation of the classic Asteroids arcade game, built in Python wi
 ## Installation
 
 - Run `make venv` from the root folder
-- Run 'source venv/bin/activate'
-- Run 'python3 main.py'
+- Run `source venv/bin/activate`
+- Run `python3 main.py`
 
 - Close the Window to end the game
 
-- Run 'make clean' to remove venv
-- Run 'deactivate' to stop the virtual environment
+- Run `make clean` to remove venv
+- Run `deactivate` to stop the virtual environment
 
 ---
 
 ## Controls
 
-W - Move Forward
-S - Move Backward
-A - Turn Left
-D - Turn Right
-Space - Shoot
+W - Move Forward  
+S - Move Backward  
+A - Turn Left  
+D - Turn Right  
+Space - Shoot  
 
 ## License
 
